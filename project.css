@@ -1,0 +1,76 @@
+#container-fluid,
+footer {
+    text-align: center;
+}
+
+#mobile {
+    display: none;
+}
+
+@media only screen and (max-width: 400px) {
+    /*#disclaimer {
+        display: none;
+    }*/
+
+    #mobile {
+        display: inline-block;
+    }
+
+    #desktop {
+        display: none;
+    }
+}
+
+#panel {
+    overflow-y: scroll;
+    height: 300px;
+    text-align: center;
+}
+
+#printoutPanel {
+    overflow-y: scroll;
+    height: 300px;
+    text-align: center;
+}
+
+#column1 {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    border: 1px dashed black;
+}
+
+body {
+    background-color: lightgray;
+}
+
+table,
+td {
+    border: 2px solid green;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 5px;
+    width: 250px;
+}
+
+input,
+textarea {
+    border-radius: 7px;
+    padding: 3px;
+}
+
+form {
+    margin: 50px;
+}
+
+.globe {
+    margin: 10px;
+}
+
+img {
+    margin: 5px;
+}
